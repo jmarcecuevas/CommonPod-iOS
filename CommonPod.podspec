@@ -32,6 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'CommonPod/Classes/**/*'
   
+  s.swift_version = '4.1'
+  
   # s.resource_bundles = {
   #   'CommonPod' => ['CommonPod/Assets/*.png']
   # }
