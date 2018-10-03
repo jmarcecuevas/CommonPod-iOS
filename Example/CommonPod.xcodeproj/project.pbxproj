@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02A829FC01434918BF297E87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		469202ACF4F4D975F65CC969 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		02A829FC01434918BF297E87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		469202ACF4F4D975F65CC969 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4B0166841FAF15D5DDC005DF /* Pods_CommonPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* CommonPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6174C5E77329C3983FEA531A /* Pods_CommonPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6307369F1DA0EBA05386A47A /* CommonPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CommonPod.podspec; path = ../CommonPod.podspec; sourceTree = "<group>"; };
+		6307369F1DA0EBA05386A47A /* CommonPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CommonPod.podspec; path = ../CommonPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		78D5E622804EEC649D96BAAE /* Pods-CommonPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonPod_Tests/Pods-CommonPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		87E19A4CD9FDBBC9DF5A70BB /* Pods-CommonPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPod_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonPod_Example/Pods-CommonPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EC0BC42B330F08A844232A2F /* Pods-CommonPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonPod_Example/Pods-CommonPod_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -266,15 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CommonPod_Example/Pods-CommonPod_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CommonPod/CommonPod.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CommonPod.framework",
 			);
@@ -288,15 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CommonPod_Example-checkManifestLockResult.txt",
 			);
@@ -310,15 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CommonPod_Tests-checkManifestLockResult.txt",
 			);
